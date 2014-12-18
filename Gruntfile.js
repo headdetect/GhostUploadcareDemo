@@ -541,12 +541,11 @@ var _              = require('lodash'),
                         'bower_components/ember-simple-auth/simple-auth-oauth2.js',
                         'bower_components/google-caja/html-css-sanitizer-bundle.js',
                         'bower_components/nanoscroller/bin/javascripts/jquery.nanoscroller.js',
-
                         'core/shared/lib/showdown/extensions/ghostimagepreview.js',
                         'core/shared/lib/showdown/extensions/ghostgfm.js',
 
-                        'ghost-uploadcare.js'
-
+                        // TODO: implement some sort of plugin spec
+                        'core/extras/uploadcare/uploadcare-connector.js'
                     ]
                 },
 

@@ -6,7 +6,6 @@ var PostImageUploader = Ember.Component.extend({
     setup: function () {
         var $this = this.$(),
             self = this;
-
         uploader.call($this, {
             editor: true,
             fileStorage: this.get('config.fileStorage')

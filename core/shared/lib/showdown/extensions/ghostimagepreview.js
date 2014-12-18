@@ -6,7 +6,6 @@
 // Manages the conversion of image markdown `![]()` from markdown into the HTML image preview
 // This provides a dropzone and other interface elements for adding images
 // Is only used in the admin client.
-
 var Ghost = Ghost || {};
 (function () {
     var ghostimagepreview = function () {
@@ -33,8 +32,8 @@ var Ghost = Ghost || {};
                                 result + '<div class="description">Mobile uploads coming soon</div></section>';
                         } else {
                             output = '<section id="image_upload_' + key + '" class="js-drop-zone image-uploader">' +
-                                result + '<div class="description">Add image of <strong>' + alt + '</strong></div>' +
-                                '<input data-url="upload" class="js-fileupload main fileupload" type="file" name="uploadimage">' +
+                                result + '<div class="description">Add image pls<strong>' + alt + '</strong></div>' +
+                                '<input data-url="upload" class="js-fileupload main fileupload uploadcare">' +
                                 '</section>';
                         }
 
